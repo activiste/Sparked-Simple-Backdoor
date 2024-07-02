@@ -2,7 +2,7 @@
 
 ## À Propos
 
-SPARKED BACKDOOR est un projet éducatif conçu pour aider les développeurs et les passionnés de sécurité informatique à comprendre le fonctionnement des backdoors dans les réseaux informatiques. Ce projet est composé d'une architecture client-serveur, permettant de simuler une connexion entre une machine attaquante (serveur) et une machine victime (client).
+SPARKED BACKDOOR est un projet conçu pour aider les développeurs et les passionnés à comprendre le fonctionnement des backdoors dans les réseaux informatiques. Ce projet est composé d'une architecture client-serveur, permettant de simuler une connexion entre une machine attaquante (serveur) et une machine victime (client).
 
 **Important :** Ce projet est uniquement à des fins éducatives. L'utilisation de SPARKED BACKDOOR ou de toute autre forme de logiciel malveillant dans un but malveillant sans consentement explicite est illégale et contraire à l'éthique. En utilisant ou en contribuant à ce projet, vous acceptez de le faire de manière responsable et éthique.
 

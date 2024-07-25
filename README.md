@@ -1,56 +1,56 @@
 # SPARKED BACKDOOR
 
-## À Propos
+## About
 
-SPARKED BACKDOOR est un projet conçu pour aider les développeurs et les passionnés à comprendre le fonctionnement des backdoors dans les réseaux informatiques. Ce projet est composé d'une architecture client-serveur, permettant de simuler une connexion entre une machine attaquante (serveur) et une machine victime (client).
+SPARKED BACKDOOR is a project designed to help developers and enthusiasts understand how backdoors work in computer networks. This project is composed of a client-server architecture, allowing to simulate a connection between an attacker machine (server) and a victim machine (client).
 
-**Important :** Ce projet est uniquement à des fins éducatives. L'utilisation de SPARKED BACKDOOR ou de toute autre forme de logiciel malveillant dans un but malveillant sans consentement explicite est illégale et contraire à l'éthique. En utilisant ou en contribuant à ce projet, vous acceptez de le faire de manière responsable et éthique.
+**Important:** This project is for educational purposes only. Using SPARKED BACKDOOR or any other form of malware for malicious purposes without explicit consent is illegal and unethical. By using or contributing to this project, you agree to do so in a responsible and ethical manner.
 
-## Fonctionnalités
+## Features
 
-- **Connexion à distance :** Permet à l'utilisateur (serveur) d'etablir une connection à distance à un client compromis.
-- **Exécution de commandes :** Après l'établissement de la connexion, il est possible d'exécuter des commandes sur le client compromis.
-- **Simplicité :** Conçu pour être simple à comprendre et à utiliser, permettant aux débutants en sécurité de s'y retrouver.
+- **Remote connection:** Allows the user (server) to establish a remote connection to a compromised client.
+- **Command execution:** After the connection is established, it is possible to execute commands on the compromised client.
+- **Simplicity:** Designed to be simple to understand and use, allowing security beginners to find their way around.
 
-### Prérequis
+### Prerequisites
 
-- Python installé sur les machines client et serveur. | sauf si build en executable
+- Python installed on both client and server machines. | unless build as executable
 
-### Étapes d'installation
+### Installation steps
 
-1. **Cloner le dépôt :**
-   ```sh
-   git clone https://github.com/activiste/Sparked-Simple-Backdoor.git
-   ```
-   
-2. **Configuration du serveur :**
+1. **Clone the repository:**
+```sh
+git clone https://github.com/activiste/Sparked-Simple-Backdoor.git
+```
 
-   - Accédez au dossier du projet et naviguez vers le sous-dossier serveur.
-   - Lancez le script serveur sur votre machine.
-     ```sh
-     python serveur.py
-     ```
+2. **Server configuration:**
 
-3. **Configuration du client :**
+- Go to the project folder and navigate to the server subfolder.
+- Run the server script on your machine.
+```sh
+python server.py
+```
 
-   - Accédez au dossier du projet et naviguez vers le sous-dossier client.
-   - Lancez le script client depuis votre machine cible.
-     ```sh
-     python client.py
-     ```
+3. **Client Setup:**
 
-## Utilisation
+- Go to the project folder and navigate to the client subfolder.
+- Run the client script from your target machine.
+```sh
+python client.py
+```
 
-Après avoir lancé le serveur sur votre machine et le client sur la machine cible, vous établissez une connexion entre les deux. Vous pouvez commencer à envoyer des commandes depuis le serveur vers le client pour être exécutées.
+## Usage
 
-## Sécurité et Disclaimer
+After running the server on your machine and the client on the target machine, you establish a connection between the two. You can start sending commands from the server to the client to be executed.
 
-Ce projet est fourni **tel quel** pour des fins éducatives. Il est important de comprendre que l'utilisation de backdoors sans autorisation est illégale et immorale. Nous n'encourageons ni ne soutenons l'utilisation de cet outil dans des activités malveillantes.
+## Security and Disclaimer
+
+This project is provided **as is** for educational purposes. It is important to understand that using backdoors without permission is illegal and immoral. We do not encourage or support the use of this tool in malicious activities.
 
 ## Contribution
 
-Les contributions sont les bienvenues ! Si vous souhaitez améliorer SPARKED BACKDOOR ou suggérer de nouvelles fonctionnalités, n'hésitez pas à créer une pull request ou à ouvrir un issue.
+Contributions are welcome! If you want to improve SPARKED BACKDOOR or suggest new features, feel free to create a pull request or open an issue.
 
-## Licence
+## License
 
-Ce projet est sous licence [MIT](https://opensource.org/licenses/MIT). Cette licence permet une grande liberté d'utilisation et de modification, mais elle ne fournit aucune garantie.
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license. This license allows for great freedom of use and modification, but it provides no warranty.
